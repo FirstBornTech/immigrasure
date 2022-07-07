@@ -1,0 +1,115 @@
+h2 {
+    color: white;
+    font-family: var(--font-family);
+}
+
+.imm_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position: relative;
+}
+
+.imm_navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imm_navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.imm_navbar-links_container {
+    margin-left: auto; 
+    margin-right: 0;
+    background-color: white;
+    border-radius: var(--ntp-realbox-border-radius);
+    padding: 4px 4px 6px 4px;
+}
+
+.imm_navbar-links_container span {
+    margin: 0 8px;
+    padding: 3px 14px;
+}
+
+.imm_navbar-links_container span.active{
+    background-color: #5F2B51;
+    border-radius: var(--ntp-realbox-border-radius);
+}
+.imm_navbar-links_container span.active a{
+    color: white;
+}
+
+.imm_navbar-links_container a {
+    color: #5F2B51;
+    font-family: var(--font-family);
+}
+
+.imm_navbar-menu {
+    display: none;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.imm_navbar-menu svg {
+    cursor: pointer;
+}
+
+.imm_navbar-menu_container {
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column; */
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 190px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgb(0, 0, 0, 0.2);
+    line-height: 2;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.imm_navbar-menu_container span {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.imm_navbar-menu_container span a{
+    font-family: var(--font-family);
+    color: #fff;
+}
+@media screen and (max-width: 1050px) {
+    .imm_navbar-links_container{
+        display: none;
+    }
+    .imm_navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .imm_navbar{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .imm_navbar{
+        padding: 1rem;
+    }
+    .imm_navbar-menu_container{
+        top: 20px;
+    }
+}

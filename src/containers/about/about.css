@@ -1,0 +1,66 @@
+.imm_about {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 2rem;
+}
+.imm_about-head{
+    width: 454px;
+    height: 40px;
+
+    background: #5F2B51;
+    border-radius: 50px;
+    text-align: center;
+
+    font-family: var(--font-family);
+    font-size: 22px;
+}
+.imm_about-head h2{
+    position: relative;
+}
+.imm_about-para {
+    color: #5F2B51;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2rem 6rem;
+    text-align: justify;
+}
+.imm_about-para p{
+    position: relative;
+}
+
+@media screen and (max-width: 1050px) {
+    .imm_about-para p {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .imm_about-para {
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imm_about-para p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .imm_about-para{
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .imm_about-para p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 4200px) {
+    .imm_about {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,144 @@
+.imm_services{
+    display: flex;
+}
+.imm_service-button {
+    position: relative;
+    font-size: 20px;
+    margin-top: 1rem;
+    padding: 10px 30px;
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    cursor: pointer;
+}
+.imm_services-work {
+    background: #301725;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    text-align: start;
+    justify-content: space-between;
+}
+.imm_services-work h2 {
+    position: relative;
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: #d67c84;
+}
+.imm_services-work .imm_service-button {
+    color: #301725;
+    background: #d67c84;
+}
+.imm_serivces-study {
+    background: #301725;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-content: flex-end;
+    text-align: end;
+    justify-content: space-between;
+}
+.imm_serivces-study h2 {
+    position: relative;
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: #d67c84;
+}
+.imm_serivces-study .imm_service-button {
+    color: #301725;
+    background: #d67c84;
+}
+.imm_serivces-train {
+    background: #d67c84;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.imm_serivces-train h2 {
+    position: relative;
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: #301725;
+}
+.imm_serivces-train .imm_service-button {
+    color: #d67c84;
+    background: #301725;
+}
+.imm_services p{
+    position: relative;
+    margin-top: 1rem;
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+@media screen and (max-width: 1050px) {
+    .imm_services p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imm_services-work h2, .imm_serivces-train h2, .imm_serivces-study h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .imm_services-work, .imm_serivces-study, .imm_serivces-train {
+        padding: 25px;
+    }
+    .imm_service-button{
+        padding: 2px 20px;
+    }
+    .imm_services-work h2, .imm_serivces-train h2, .imm_serivces-study h2 {
+        font-size: 17px;
+    }
+    .imm_services p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .imm_services-work, .imm_serivces-study, .imm_serivces-train {
+        padding: 12px;
+    }
+    .imm_service-button {
+        padding: 2px 14px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .imm_services-work, .imm_serivces-study, .imm_serivces-train {
+        padding: 10px;
+    }
+    .imm_services-work h2, .imm_serivces-train h2, .imm_serivces-study h2 {
+        font-size: 14px;
+    }
+    .imm_services p {
+        font-size: 10px;
+    }
+    .imm_service-button {
+        padding: 1px 10px;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .imm_services-work h2, .imm_serivces-train h2, .imm_serivces-study h2 {
+        font-size: 12px;
+    }
+    .imm_services p {
+        font-size: 7px;
+    }
+    .imm_service-button {
+        font-size: 12px;
+    }
+    
+}

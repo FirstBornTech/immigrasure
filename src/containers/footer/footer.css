@@ -1,0 +1,97 @@
+.imm_footer {
+    padding: 40px;
+    background: #282828;
+}
+.imm_footer-links {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.imm_footer-links a{
+    flex-direction: row;
+}
+.imm_footer-links a:hover{
+    color: #fff;
+}
+.imm_footer-container {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 80px;
+}
+.imm_footer-contact {
+    line-height: 2rem;
+}
+.imm_footer-contact_phone, .imm_footer-contact_web, .imm_footer-contact_mail{
+    color: #fff;
+}
+.imm_footer-contact_phone p, .imm_footer-contact_web p, .imm_footer-contact_mail p{
+    padding-left: 20px;
+    display: inline;
+}
+.imm_footer-copyright {
+    text-align: center;
+    padding-top: 80px;
+}
+.imm_footer-copyright p{
+    color: #fff;
+}
+.imm_footer-copyright_social span {
+    margin: 10px;
+    font-size: 25px;
+}
+@media screen and (max-width: 920px) {
+    .imm_footer-contact_phone p, .imm_footer-contact_web p, .imm_footer-contact_mail p {
+        padding-left: 5px;
+    }
+    .imm_footer {
+        padding: 40px 20px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .imm_footer-contact_phone span, .imm_footer-contact_web span, .imm_footer-contact_mail span {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .imm_footer-logo h2 {
+        font-size: 20px;
+    }
+    .imm_footer-links a{
+        font-size: 16px;
+    }
+    .imm_footer-container {
+        padding-bottom: 60px;
+    }
+    .imm_footer-copyright {
+        padding-top: 60px;
+    }
+    .imm_footer-copyright_social span {
+        font-size: 20px;
+    }
+    .imm_footer-copyright p {
+        font-size: 14px;
+    }
+    .imm_footer-contact_phone p, .imm_footer-contact_web p, .imm_footer-contact_mail p {
+        font-size: 15px;
+    }
+    .imm_footer {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .imm_footer-logo h2 {
+        font-size: 18px;
+    }
+    .imm_footer-links a{
+        font-size: 12px;
+    }
+    .imm_footer-contact_phone p, .imm_footer-contact_web p, .imm_footer-contact_mail p {
+        font-size: 12px;
+    }
+    .imm_footer {
+        padding: 20px 0;
+    }
+    .imm_footer-contact {
+        line-height: 1.5rem;
+    }
+}

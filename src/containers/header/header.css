@@ -1,0 +1,120 @@
+.imm_header{
+    display: flex;
+    position: relative;
+}
+.imm_header-carousel_contents{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(-50%);
+}
+.current {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.imm_header-contents{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 6rem;
+}
+
+.imm_header-contents h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    
+}
+
+.imm_header-contents p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    margin-top: 1.5rem;
+}
+
+.imm_header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imm_header-image img {
+    width: 40%;
+}
+
+@media screen and (max-width: 1050px) {
+    .imm_header-contents h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .imm_header-contents p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imm_header-contents h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .imm_header-contents p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .imm_header-contents h1 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .imm_header-contents p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .imm_header-contents h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .imm_header-contents p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+@media screen and (max-width: 420px ) {
+    .imm_header-contents h1 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .imm_header-contents p {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 0.5rem;
+    }
+    .imm_header-contents {
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .imm_header-contents h1 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .imm_header-contents p {
+        font-size: 6px;
+        line-height: 7px;
+    }
+}

@@ -139,7 +139,7 @@ a {
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 428px){
     .backgound_plain {
         margin: 0 10px;
         border-radius: 20px;

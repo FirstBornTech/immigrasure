@@ -92,7 +92,7 @@
         font-size: 6px;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 428px) {
     .carousel-control-next, .carousel-control-prev {
         display: none;
     }

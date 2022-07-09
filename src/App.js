@@ -1,7 +1,7 @@
 import React from 'react'
 import { About, Blog, Footer, Header, Services } from './containers'
 import { Navbar, Particlebg, Newsletter} from './components'
-import './app.css'
+import './App.css'
 
 const App = () => {
   return (

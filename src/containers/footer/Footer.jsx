@@ -27,7 +27,7 @@ const Footer = () => {
                 {/* <span className='imm_footer-contact_icon'> */}
                   <FaPhoneAlt color='#fff'></FaPhoneAlt>
                   {/* </span> */}
-                <p>0943787474</p>
+                <p>07784825133</p>
               </div>
               <div className='imm_footer-contact_web'>
                 {/* <span className='imm_footer-contact_icon'> */}
